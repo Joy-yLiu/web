@@ -1,0 +1,154 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: "Gill Sans", sans-serif;
+	background-color: #f2e3d8;
+
+}
+
+#home {
+	background-image: url("file:///Users/JoyLiu/Desktop/website/webbg.png");
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#art-other {
+	background-image: url("");
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#about {
+	background-image: url("");
+	background-attachment: fixed;
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+/*
+Top Menu Bar
+*/
+
+#top {
+	overflow: hidden;
+}
+
+#top a {
+ 	display: block;
+ 	color: #ff5a89;
+  	text-align: center;
+ 	padding: 0px 50px;
+ 	margin-top: 10px;
+ 	text-decoration: none;
+}
+
+.menu-link, .dropdown {
+	float: left;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+}
+
+.dropdown-content a {
+	color: #ef9309;
+	padding: 0px 0px;
+	text-decoration: none;
+	display: block;
+	float: left;
+}
+
+.dropdown-content a:hover, .menu-link:hover {
+	color: #f1bf7b !important;
+}
+
+#logo {
+	float: left;
+	margin-left: 10px;
+	padding: 0px 0px 0px 0px !important;
+}
+
+/* Home page only */
+#intro {
+	margin-top: 150px;
+	text-align: center;
+	font-size: 28px;
+	color: #f2e3d8;
+}
+
+/* About page only*/
+.box {
+	background: rgb(241, 191, 123, 0.4);
+	margin: 25px 30% 25px 30%;
+	padding: 20px 20px 20px 50px;
+}
+
+.box a, .side-box a {
+	text-decoration: none;
+	color: #ff5a89;
+}
+
+.box a:hover, .side-box a:hover {
+	color: #f1bf7b;
+}
+
+/* Art + other page */
+.content div {
+	display: block;
+
+}
+
+.side-box {
+	background: rgb(241, 191, 123, 0.4);
+	float: left;
+	margin: 50px 65% 25px 65px;
+	padding: 15px 15px 15px 30px;
+	width: 260px;
+}
+
+.bar {
+	background: rgb(255, 90, 137, 0.5);
+	margin: 25px 20% 25px 20%;
+	float: right;
+	width: 400px;
+	height: 50px;
+}
+
+/* Text stylings */
+/* Home page only*/
+h1 {
+	color: white;
+	font-size: 48px;
+	font-weight: normal;
+}
+/* Blue page titles */
+h2 {
+	color: #052bff;
+	font-size: 36px;
+	margin: 10px 5px 0px 5px;
+}
+/* Bar headings */
+h3 {
+	color: white;
+	font-size: 20px;
+	margin: 12px 0px 0px 25px;
+	font-weight: normal;
+}
+
+p {
+	padding: 5px 25px 5px 25px;
+}
